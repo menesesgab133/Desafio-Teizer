@@ -16,8 +16,8 @@
 </head>
 
 <body>
-  <header>
 
+  <header>
     <nav class="navbar navbar-light bg-light bg-degrade shadow">
       <div class="container d-flex justify-content-center">
         <a class="navbar-brand text-white fontMinutes">
@@ -26,55 +26,62 @@
         </a>
       </div>
     </nav>
-
   </header>
 
-  <div class="container containerResult text-white mt-5 shadow">
-    <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center align-items-center">
-        <div>
-          <form>
+  <main>
+    <section>
+      <div class="container containerResult text-white mt-5 shadow">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center align-items-center">
+            <div>
+              <form>
 
-            <div class="d-flex justify-content-center mb-3 fontMinutes text-white">
-              Informe o tempo da ligação:
+                <div class="d-flex justify-content-center mb-3 fontMinutes text-white">
+                  Informe o tempo da ligação:
+                </div>
+
+                <input class="form-control mb-2" id="minutagem" type="number" required>
+
+                <select class="form-select mb-2" aria-label="" id="origem" required>
+                  <option selected>Escolha a Origem e o destino:</option>
+                  <option value="190">Origem: 011 || Destino: 016</option>
+                  <option value="290">Origem:016 || Destino:011</option>
+                  <option value="170">Origem:011 || Destino:017</option>
+                  <option value="270">Origem:017 || Destino:011</option>
+                  <option value="90">Origem:011 || Destino:018</option>
+                  <option value="190">Origem:018 || Destino:011</option>
+                </select>
+
+                <select class="form-select" aria-label="" id="plano" required>
+                  <option selected>Escolha o plano:</option>
+                  <option value="30">FaleMais 30</option>
+                  <option value="60">FaleMais 60</option>
+                  <option value="120">FaleMais 120</option>
+                </select>
+
+              </form>
+
             </div>
+          </div>
 
-            <input class="form-control mb-2" id="minutagem" type="number" required>
-
-            <select class="form-select mb-2" aria-label="" id="origem" required>
-              <option selected>Escolha a Origem e o destino:</option>
-              <option value="190">Origem: 011 || Destino: 016</option>
-              <option value="290">Origem:016 || Destino:011</option>
-              <option value="170">Origem:011 || Destino:017</option>
-              <option value="270">Origem:017 || Destino:011</option>
-              <option value="90">Origem:011 || Destino:018</option>
-              <option value="190">Origem:018 || Destino:011</option>
-            </select>
-
-            <select class="form-select" aria-label="" id="plano" required>
-              <option selected>Escolha o plano:</option>
-              <option value="30">FaleMais 30</option>
-              <option value="60">FaleMais 60</option>
-              <option value="120">FaleMais 120</option>
-            </select>
-
-          </form>
+          <div class="d-flex justify-content-center mt-3">
+            <button id="calcular" class="btn btnResult text-white">Simular</button>
+          </div>
 
         </div>
       </div>
+    </section>
 
-      <div class="d-flex justify-content-center mt-3">
-        <button id="calcular" class="btn btnResult text-white">Simular</button>
+    <section>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center align-items-center" id="resultado"></div>
+        </div>
       </div>
+    </section>
+  </main>
 
-    </div>
-  </div>
 
-  <div class="container mt-3">
-    <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center align-items-center" id="resultado"></div>
-    </div>
-  </div>
 
 
 
