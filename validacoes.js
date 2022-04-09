@@ -1,6 +1,7 @@
-const minutagem = document.querySelector("#minutagem");
-let calcular = document.querySelector("#calcular");
-let resultado = document.querySelector("#resultado");
+/*Capturando os valores*/
+const minutagem = document.querySelector("#minutagem"); 
+let calcular = document.querySelector("#calcular"); 
+let resultado = document.querySelector("#resultado"); 
 let selectOrigem = document.querySelector("#origem");
 let selectPlano = document.querySelector("#plano");
 
@@ -13,6 +14,7 @@ calcular.addEventListener("click", function(){
   let selectValuePlano = selectPlano.options[selectPlano.selectedIndex];
   let valorPlano = Number(selectValuePlano.value);
 
+  /*Verifica se os valores existem e se os campos estão vazios*/ 
   if(valorOrigem && valorPlano) {
         if(!valorMinutagem) { 
           resultado.innerHTML = "Insira a minutagem correta."
@@ -28,10 +30,6 @@ calcular.addEventListener("click", function(){
             calculoComPlano = Number(valorMinutagem) - Number(valorPlano)
             calculoMinutagemComPlano = Number(calculoComPlano) * Number(valorOrigem) / 100 
           }
-        
-
-       
-
           let Taxa = Number(calculoMinutagemComPlano) / Number(10)
           let resultadoTaxa = (Number(Taxa) + Number(calculoMinutagemComPlano)).toFixed(2)
           resultado.innerHTML = `
