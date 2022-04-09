@@ -17,7 +17,10 @@ calcular.addEventListener("click", function(){
   /*Verifica se os valores existem e se os campos estão vazios*/ 
   if(valorOrigem && valorPlano) {
         if(!valorMinutagem) { 
-          resultado.innerHTML = "Insira a minutagem correta."
+          resultado.innerHTML = 
+          `<div class="alert alert-danger" role="alert">
+            Insira a minutagem correta!
+          </div>`;
           }else {
             let calculoSemPlano = (Number(valorMinutagem) * Number(valorOrigem) / 100).
             toFixed(2)
