@@ -11,7 +11,7 @@
 > https://github.com/menesesgab133/desafio-teizer.git
 
 > 3. Go to folder: 
-+ cd nome-da-pasta
++ cd desafio-teizer
 + open index.html
 
 > 4. Basic directory structure: 
