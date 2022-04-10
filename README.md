@@ -11,10 +11,10 @@ Telzir cares about transparency for its customers and wants to offer a web page 
 ## How it works 
 > Project developed with the Visual Studio Code code editor. I used the Bootstrap 5 Framework. HTML, CSS and Js for content, styling and interaction with the page.
 
-## Clone the project:
+## Clone the project
 > https://github.com/menesesgab133/desafio-teizer.git
 
-## Go to folder: 
+## Go to folder 
 + cd desafio-teizer
 + open index.html
 
