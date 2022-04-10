@@ -1,5 +1,7 @@
 <h1> Desafio-Teizer </h1>
 
+> Description: Telzir cares about transparency for its customers and wants to offer a web page where customers can calculate the value of a call. There, customers can choose Codes of origin and destination cities, connection time in minutes and choose which one. Tell me more about the plan. The system should display two values: (1) the value of the connection to the plan and (2) No plan. For this, the initial cost of purchasing the plan should be ignored question.
+
 > Status: Developed
 
 > Modifications: If you want to help improve this webpage by writing, fixing or improving the user experience, FORK the project and get to work.
