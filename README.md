@@ -11,17 +11,22 @@
 > https://github.com/menesesgab133/desafio-teizer.git
 
 > 3. Go to folder: 
-> cd nome-da-pasta
++ cd nome-da-pasta
++ open index
 
 > 4. Basic directory structure: 
-> | desafio-teizer/
-|
-|-- index.html
-|-- style.css
-|-- validacoes.js
-|-- README
-|-- LICENSE
-|
-|-- img   
-||  -- logo.png
+```sh
+desafio-teizer
+├── index.html
+│   
+├── style.css
+│  
+├── validacoes.js
+├── img
+│   └── logo.png
+│ 
+├── README.md
+│
+└── LICENSE
+```
 
