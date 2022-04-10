@@ -12,7 +12,7 @@
 
 > 3. Go to folder: 
 + cd nome-da-pasta
-+ open index
++ open index.html
 
 > 4. Basic directory structure: 
 ```sh
