@@ -48,9 +48,9 @@ calcular.addEventListener("click", function(){
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td>${resultadoTaxa}</td>
-                <td>${calculoSemPlano}</td>
-                <td>${calculoComPlano}</td>
+                <td>R$ ${resultadoTaxa}</td>
+                <td>R$ ${calculoSemPlano}</td>
+                <td>${calculoComPlano} min</td>
               </tr>
             </tbody>
         </table>
